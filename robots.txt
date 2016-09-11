@@ -1,0 +1,15 @@
+# robots.txt for https://jasonb.xyz and https://Strykerraven.github.io
+# Allow all spiders
+User-agent: *
+
+# Allows
+# Disallowed until ready to launch
+Disallow: /
+
+# Disallows
+Disallow: /CNAME
+Disallow: /README.md
+
+# Sitemaps
+#Sitemap: https://Strykerraven.github.io/sitemap_index.xml
+Sitemap: https://jasonb.xyz/sitemap_index.xml
