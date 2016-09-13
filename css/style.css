@@ -157,7 +157,6 @@ textarea {
 	min-height:400px;
 	padding: 0 1em;
 }
-.no-js{}
 .overall_wrapper{
 	display:flex;
 	flex-flow:row wrap;
