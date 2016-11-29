@@ -48,6 +48,7 @@ nbdist/
 #    Other Paths	 #
 ######################
 nbproject/private/
+test/
 
 
 # Others that either wont be used or not utilized yet
