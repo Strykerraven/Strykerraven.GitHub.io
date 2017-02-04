@@ -2,7 +2,6 @@
 # Allow all spiders
 User-agent: *
 
-# Allows
 # Disallowed until ready to launch
 Disallow: /
 

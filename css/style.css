@@ -1,84 +1,98 @@
 /**
-    Created on : Sep 9, 2016, 10:52:17 AM
-    Author     : Stryk
-	This stylesheet specifies defaults for html elements
+	Last Modified: Feb 4, 2017, 08:13 AM
+	Author: Strykerraven
+	This stylesheet specifies the main styling
 */
-
 /**
 	Initial Defaults
 */
 * {
-	box-sizing: border-box;
-	border:0;
-	vertical-align:top;
+    border:0;
+    box-sizing: border-box;
+    vertical-align:top;
 }
 body{ /* body defaults */
     background-color:#000; /* Default to black */
-	color:#FFF;
-	font-family: "Open Sans","lucida grande",tahoma,arial,sans-serif; /* set default font family with fallback fonts */
+    color:#FFF;
+    font-family: "Open Sans","lucida grande",tahoma,arial,sans-serif; /* set default font family with fallback fonts */
     font-size: 1em;
     font-style: normal; /* Default to Normal Style */
     font-weight: normal;
-	line-height: 1.15; /* Correct the line height in all browsers. */
-	margin:0;
-	padding:0;
-	-ms-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in IE and iOS. */
-	-webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in IE and iOS. */
-
+    line-height: 1.15; /* Correct the line height in all browsers. */
+    margin:0;
+    padding:0;
+    -ms-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in IE and iOS. */
+    -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in IE and iOS. */
 }
 a,a:visited{ /* active & visited links have normal style */
-	background-color: transparent; /* Remove the gray background on active links in IE 10. */
+    background-color: transparent; /* Remove the gray background on active links in IE 10. */
     border:0;
     color: #0066FF;
     cursor:pointer;
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
     text-decoration: none;
     -moz-transition: all 333ms ease;
-	-webkit-transition: all 333ms ease;
+    -webkit-transition: all 333ms ease;
     -o-transition: all 333ms ease;
     transition: all 750ms ease;
-	-webkit-text-decoration-skip: objects; /* Remove gaps in links underline in iOS 8+ and Safari 8+. */
+    -webkit-text-decoration-skip: objects; /* Remove gaps in links underline in iOS 8+ and Safari 8+. */
 }
 a:active,a:hover{ /* active & hovered links have shared style */
     color: #00AAFF;
-	outline-width: 0;
-	padding:2px 0;
+    outline-width: 0;
+    padding:2px 0;
     -moz-transition: all 333ms ease;
     -o-transition: all 333ms ease;
-	-webkit-transition: all 333ms ease;
+    -webkit-transition: all 333ms ease;
     transition: color 333ms ease-out,
-        border-top 750ms ease-out,
-        border-bottom 750ms ease-in,
-        padding 333ms ease-in;
+		border-top 750ms ease-out,
+		border-bottom 750ms ease-in,
+		padding 333ms ease-in;
 }
 article, aside, details, div, figure, figcaption, footer, header, hr, main, menu, nav, section{ /* Default each as a Block in all browsers */
-	display: block;
+    display: block;
 }
 button, input { /* Show the overflow in IE/Edge. */
-	overflow: visible;
+    overflow: visible;
 }
 code, dfn, kbd, pre, samp, var {
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 1em;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1em;
 }
 footer{
-	width:100%;
+    width:100%;
 }
 header{
-	width:100%;
+    width:100%;
 }
 hr{
-	border:1px solid white;
-	overflow:hidden;
-	width:50%;
+    border:1px solid white;
+    overflow:hidden;
+    width:50%;
 }
 h1,h2,h3,h4,h5{
-	font-variant:small-caps;
+    font-variant:small-caps;
 }
 h1{
-	font-size: 2em;
-	margin: 0.25em 0;
+    font-size: 2em;
+    margin: 0.25em 0;
+}
+h2{
+    font-size: 1.5em;
+    margin: 0.25em 0;
+}
+h3{
+    font-size: 1.15em;
+    margin: 0.25em 0;
+}
+h4{
+    font-size: 0.8em;
+    margin: 0.25em 1em;
+}
+h5{
+    font-size: 0.65em;
+    margin: 0.25em 0;
 }
 nav{
 
@@ -87,91 +101,110 @@ p{
 
 }
 summary {
-	display: list-item;
+    display: list-item;
 }
 svg:not(:root) { /* Hide the overflow in IE */
-	overflow: hidden;
+    overflow: hidden;
 }
 textarea {
-	overflow: auto; /* Remove the default vertical scrollbar in IE when not needed. */
+    overflow: auto; /* Remove the default vertical scrollbar in IE when not needed. */
 }
 [hidden] { /* Correct display in IE 10 and lower. */
-	display: none;
+    display: none;
 }
-
-/**
-	Classes, listed alphabetical, no caps
-*/
+/* Classes: alphabetical, lower case */
+.aside_link{}
+.breadcrumb{
+	color: #0066FF;
+}
+.breadcrumb_container{}
+.breadcrumb_current{
+	color: #0066FF;
+}
 .browserupgrade {
     background: #ccc;
-	color: #000;
-	margin: 0.5em 0;
+    color: #000;
+    margin: 0.5em 0;
     padding: 0.25em;
 }
+
 .footer{
-	flex:0 1 100%;
-	height:100px;
-	order:4;
-	text-align:center;
+    flex:0 1 100%;
+    height:100px;
+    order:4;
+    text-align:center;
+}
+.footer h4{
+	display:inline;
+
 }
 .footer ul li{display:inline;}
 .header{
-	display:inline-flex;
-	flex:0 1 100%;
-	flex-flow:row wrap;
-	/* min-height:100px; */
-	order:1;
-	/* position:fixed; */
-	text-align:center;
-	/* top:0; */
-	vertical-align: text-top;
+    display:inline-flex;
+    flex:0 1 100%;
+    flex-flow:row wrap;
+    /* min-height:100px; */
+    order:1;
+    /* position:fixed; */
+    text-align:center;
+    /* top:0; */
+    vertical-align: text-top;
 }
 .header .sitename{
-	flex:0 1 45%;
-	font-size:1.5em;
-	order:1;
-	text-align:left;
-	vertical-align: text-top;
+    flex:0 1 45%;
+    font-size:1.5em;
+    order:1;
+    text-align:left;
+    vertical-align: text-top;
 }
 .header .slogan{
-	flex:0 1 55%;
-	font-size:1em;
-	margin:auto 0;
-	order:2;
-	text-align:right;
-}
-.navigation{
-	clear:both;
-	flex:0 1 100%;
-	order:3;
-
-	/* margin-top:1.5em; */
-}
-.navigation a{
-	margin-right:1em;
+    flex:0 1 55%;
+    font-size:1em;
+    margin:auto 0;
+    order:2;
+    text-align:right;
 }
 .main_wrapper{
-	/* background-color:lightgrey; */
-	flex:1;
-	order:2;
-	min-height:400px;
-	padding: 0 1em;
+    /* background-color:lightgrey; */
+    flex:1;
+    min-height:400px;
+    order:2;
+    padding: 0 1em;
 }
+.navigation{
+    clear:both;
+    flex:0 1 100%;
+    order:3;
+
+    /* margin-top:1.5em; */
+}
+.navigation a{
+    margin-right:1em;
+}
+.nav_link{}
+.nav_link_current{}
 .overall_wrapper{
-	display:flex;
-	flex-flow:row wrap;
-	padding: 0 1em;
+    display:flex;
+    flex-flow:row wrap;
+    padding: 0 1em;
 }
 .sidebar{
-	/* background-color:gray; */
-	flex:0 1 200px;
-	order:3;
-	padding:0 1em;
-	width:30%;
+    /* background-color:gray; */
+    flex:0 1 200px;
+    order:3;
+    padding:0 1em;
+    width:30%;
 }
 .sidebar header{
-
+    font-style:italic;
 }
 .sidebar footer{
-
+    font-style:italic;
+}
+.sitemap_link{}
+.to_top{}
+/** IDs; alphabetical, First letter uooer case */
+#Breadcrumb{
+	margin-right:1em;
+	text-align:right;
 }
