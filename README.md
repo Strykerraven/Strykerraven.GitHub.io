@@ -10,7 +10,7 @@ Linking to [this repository][^Repository]:
 ---
 You would do something like:
 ```HTML
-<a href="https://github.com/Strykerraven/Strykerraven.github.io/" title="Repository for JasonB.xyz">Repo for JasonB.xyz</a>
+<a href="https://github.com/Strykerraven/Strykerraven.github.io/" title="Repo for JasonB.xyz">Repo for JasonB.xyz</a>
 ```
 Donations
 ---
