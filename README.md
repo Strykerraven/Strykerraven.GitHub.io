@@ -1,4 +1,4 @@
-Strykerraven.github.io's is hosted on GitHub Pages
+Strykerraven.github.io
 ===
 This repository is for my author site hosted here on GitHub [Strykerraven.github.io][^MainURL]
 
