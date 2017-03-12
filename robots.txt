@@ -1,4 +1,4 @@
-## robots.txt for https://jasonb.xyz and https://Strykerraven.github.io
+## robots.txt for https://JasonB.xyz and https://Strykerraven.github.io
 ## Disallow spiders until ready to launch
 User-agent: *
 Disallow: /
