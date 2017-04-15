@@ -201,6 +201,7 @@ textarea {
     font-style:italic;
 }
 .sitemap_link{}
+.sitemap_link_current{}
 .to_top{}
 /** IDs; alphabetical, First letter uooer case */
 #Breadcrumb{
