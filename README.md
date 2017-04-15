@@ -1,6 +1,6 @@
 Strykerraven.github.io
 ===
-This repository is for [my author site][^MainURL] hosted here on GitHub.
+This repository is for [my author site][^_MainURL] hosted here on GitHub.
 
 Alternative Domain:
 ---
@@ -8,14 +8,16 @@ You may now also visit using: [JasonB.xyz][^_AddonURL]
 
 Linking to [this repository][^_Repository]:
 ---
-You would do something like:
+***Link using HTML***
 ```HTML
 <a href="https://github.com/Strykerraven/Strykerraven.github.io/" title="Repo for JasonB.xyz">Repo for JasonB.xyz</a>
+***Link using BBCode***
+[url=https://github.com/Strykerraven/Strykerraven.github.io/]Repo for JasonB.xyz![/url]
 ```
 Donations
 ---
 Like my work and want to donate? 
-You may do so with [PayPal][^_Donations] at [PayPal.me/before][^_Donations]
+You may donate any amount of your choosing securely with [PayPal][^_Donations] at [https://PayPal.me/before][^_Donations]
 
 License
 ---
