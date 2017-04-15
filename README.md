@@ -11,7 +11,9 @@ Linking to [this repository][^_Repository]:
 ***Link using HTML***
 ```HTML
 <a href="https://github.com/Strykerraven/Strykerraven.github.io/" title="Repo for JasonB.xyz">Repo for JasonB.xyz</a>
+```
 ***Link using BBCode***
+```
 [url=https://github.com/Strykerraven/Strykerraven.github.io/]Repo for JasonB.xyz![/url]
 ```
 Donations
