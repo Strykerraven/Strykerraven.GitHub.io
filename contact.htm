@@ -62,28 +62,18 @@
 				<!--[if lt IE 8]>
 					<p class="browserupgrade">You're using an <strong>outdated</strong> browser. Older versions of Internet Explorer are crap when it comes to HTML5 support, but to make matters worse you're missing important security updates. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience. Microsoft has dropped support for browsers below IE10 and as a result so have many web designers meaning that this website and other websites you visit may not render properly or give you the proper user experience. Two good browser recommendations are <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> and <a href="https://www.google.com/chrome/">Google Chrome</a>.</p>
 				<![endif]-->
-				<p>
-					Do you wish to Contact me? If so you've come to the right page. Simply fill out the form below.
-				</p>
-				<footer>
-					<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-						<div class="row">
-							<label for="name">Your name:</label><br />
-							<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-						</div>
-						<div class="row">
-							<label for="email">Your email:</label><br />
-							<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-						</div>
-						<div class="row">
-							<label for="message">Your message:</label><br />
-							<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-						</div>
-						<input id="submit_button" type="submit" value="Send email" />
-					</form>
-					Posted by <a href=about.htm">JasonB</a> on February 24th, 2017
-					Share Links: [TODO]
-				</footer>
+				<form id="contact_form" method="POST" action="https://formspree.io/%43%6F%6E%74%61%63%74%40%4A%61%73%6F%6E%42%2E%78%79%7A">
+					<label for="name">Your name:</label>
+					<input id="name" name="name" type="text" placeholder="Jason B" size="30" /><br />
+					<label for="email">Your e-Mail Address:</label><br />
+					<input id="email" type="email" name="email" placeholder="Your email address">
+					<label for="message">Your message:</label><br />
+					<textarea id="message" name="message" placeholder="Your message here, Be descriptive!" rows="7" cols="30"></textarea>
+					<input type="text" name="_gotcha" style="display:none" />
+					<input type="hidden" name="_next" value="https://jasonb.xyz/thanks.htm" />
+					<input type="hidden" name="_subject" value="New submission from JasonB.xyz!" />
+					<button type="submit">Send</button>
+				</form>
 			</div><!-- /div .main-wrapper -->
 			<aside class="sidebar" id="sidebar">
 				<header>
