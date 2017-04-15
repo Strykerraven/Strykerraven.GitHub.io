@@ -63,12 +63,21 @@
 					<p class="browserupgrade">You're using an <strong>outdated</strong> browser. Older versions of Internet Explorer are crap when it comes to HTML5 support, but to make matters worse you're missing important security updates. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience. Microsoft has dropped support for browsers below IE10 and as a result so have many web designers meaning that this website and other websites you visit may not render properly or give you the proper user experience. Two good browser recommendations are <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> and <a href="https://www.google.com/chrome/">Google Chrome</a>.</p>
 				<![endif]-->
 				<form id="contact_form" method="POST" action="https://formspree.io/%43%6F%6E%74%61%63%74%40%4A%61%73%6F%6E%42%2E%78%79%7A">
-					<label for="name">Your name:</label>
-					<input id="name" name="name" type="text" placeholder="Jason B" size="30" /><br />
-					<label for="email">Your e-Mail Address:</label><br />
-					<input id="email" type="email" name="email" placeholder="Your email address">
-					<label for="message">Your message:</label><br />
-					<textarea id="message" name="message" placeholder="Your message here, Be descriptive!" rows="7" cols="30"></textarea>
+					<details>
+						<summary><label for="name">Your name:</label></summary>
+						<p>How should I address you?</p>
+					</details>
+					<input id="name" name="name" type="text" placeholder="Jason B" size="33" /><br /><br />
+					<details>
+						<summary><label for="email">Your e-Mail Address:</label></summary>
+						<p>Where should I reply to you?</p>
+					</details>
+					<input id="email" type="email" name="email" placeholder="Your email address" size="33" ><br /><br />
+					<details>
+						<summary><label for="message">Your message:</label></summary>
+						<p>What do you wish to say to me? Please be descriptive.</p>
+					</details>
+					<textarea id="message" name="message" placeholder="Your message here" rows="7" cols="30"></textarea><br /><br />
 					<input type="text" name="_gotcha" style="display:none" />
 					<input type="hidden" name="_next" value="https://jasonb.xyz/thanks.htm" />
 					<input type="hidden" name="_subject" value="New submission from JasonB.xyz!" />
