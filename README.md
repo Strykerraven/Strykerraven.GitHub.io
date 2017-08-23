@@ -4,7 +4,7 @@ This repository is for [my author site][^_MainURL] hosted here on GitHub.
 
 Alternative Domain:
 ---
-You may now also visit using: [^Strykerraven.github.io][^_AddonURL]
+You may now also visit using: [Strykerraven.github.io][^_AddonURL]
 
 Linking to [this repository][^_Repository]:
 ---
