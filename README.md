@@ -4,17 +4,17 @@ This repository is for [my author site][^_MainURL] hosted here on GitHub.
 
 Alternative Domain:
 ---
-You may now also visit using: [Strykerraven.github.io][^_AddonURL]
+You may now also visit using: [Strykerraven.GitHub.io][^_AddonURL]
 
 Linking to [this repository][^_Repository]:
 ---
 ***Link using HTML***
 ```HTML
-<a href="https://github.com/Strykerraven/Strykerraven.github.io/" title="Repo for Strykerraven.500.Design">Repo for Strykerraven.500.Design</a>
+<a href="https://github.com/Strykerraven/Strykerraven.GitHub.io/" title="Repo for Strykerraven.GitHub.io">Repo for Strykerraven.GitHub.io</a>
 ```
 ***Link using BBCode***
 ```
-[url=https://github.com/Strykerraven/Strykerraven.github.io/]Repo for Strykerraven.500.Design![/url]
+[url=https://github.com/Strykerraven/Strykerraven.GitHub.io/]Repo for Strykerraven.GitHub.io![/url]
 ```
 Donations
 ---
@@ -25,8 +25,8 @@ License
 ---
 All code is open-source. Feel free to use and learn from it. Licensed under the [LGPLv3][^_License]
 
-[^_MainURL]: https://Strykerraven.github.io "Strykerraven.github.io"
+[^_MainURL]: https://Strykerraven.GitHub.io "Strykerraven.GitHub.io"
 [^_AddonURL]: https://Strykerraven.500.Design"
 [^_Donations]: https://paypal.me/before "Please Donate"
-[^_Repository]: https://github.com/Strykerraven/Strykerraven.github.io/ "GitHub Pages repository for Strykerraven.github.io"
-[^_License]: https://Strykerraven.github.io/LICENSE "LGPLv3 License"
+[^_Repository]: https://github.com/Strykerraven/Strykerraven.GitHub.io/ "GitHub Pages repository for Strykerraven.GitHub.io"
+[^_License]: https://Strykerraven.GitHub.io/LICENSE "LGPLv3 License"
