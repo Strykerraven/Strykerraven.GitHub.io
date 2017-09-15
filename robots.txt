@@ -1,4 +1,4 @@
-## robots.txt for https://JasonB.xyz and https://Strykerraven.github.io
+## robots.txt for https://Strykerraven.500.Design and https://Strykerraven.github.io
 ## Disallow spiders until ready to launch
 User-agent: *
 Disallow: /
@@ -10,4 +10,4 @@ Disallow: /nbproject/
 
 ## Sitemaps
 # Sitemap: https://Strykerraven.github.io/sitemap_index.xml
-Sitemap: https://jasonb.xyz/sitemap_index.xml
+Sitemap: https://Strykerraven.500.Design/sitemap_index.xml

@@ -10,11 +10,11 @@ Linking to [this repository][^_Repository]:
 ---
 ***Link using HTML***
 ```HTML
-<a href="https://github.com/Strykerraven/Strykerraven.github.io/" title="Repo for JasonB.xyz">Repo for JasonB.xyz</a>
+<a href="https://github.com/Strykerraven/Strykerraven.github.io/" title="Repo for Strykerraven.500.Design">Repo for Strykerraven.500.Design</a>
 ```
 ***Link using BBCode***
 ```
-[url=https://github.com/Strykerraven/Strykerraven.github.io/]Repo for JasonB.xyz![/url]
+[url=https://github.com/Strykerraven/Strykerraven.github.io/]Repo for Strykerraven.500.Design![/url]
 ```
 Donations
 ---
@@ -26,7 +26,7 @@ License
 All code is open-source. Feel free to use and learn from it. Licensed under the [LGPLv3][^_License]
 
 [^_MainURL]: https://Strykerraven.github.io "Strykerraven.github.io"
-[^_AddonURL]: https://Strykerraven.github.io"
+[^_AddonURL]: https://Strykerraven.500.Design"
 [^_Donations]: https://paypal.me/before "Please Donate"
 [^_Repository]: https://github.com/Strykerraven/Strykerraven.github.io/ "GitHub Pages repository for Strykerraven.github.io"
 [^_License]: https://Strykerraven.github.io/LICENSE "LGPLv3 License"
